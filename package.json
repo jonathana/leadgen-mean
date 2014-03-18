@@ -1,0 +1,33 @@
+{
+  "name": "leadgen-mean",
+  "version": "0.0.1",
+  "description": "MEAN-based lead generator form/storage",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonathana/leadgen-mean.git"
+  },
+  "keywords": [
+    "MEAN",
+    "mongodb",
+    "express",
+    "angular",
+    "nodejs",
+    "lead",
+    "leadgen",
+    "generator"
+  ],
+  "author": "Jonathan M. Altman",
+  "license": "MIT",
+  "dependencies": {
+    "mongoose": "~3.8.8",
+    "lodash": "~2.4.1",
+    "winston": "~0.7.2"
+  },
+  "devDependencies": {
+    "mocha": "~1.18.2"
+  }
+}
